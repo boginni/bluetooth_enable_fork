@@ -1,5 +1,12 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.hui.bluetooth_enable">
-  <!-- <meta-data android:name="flutterEmbedding" android:value="2"/> -->
-  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_CONNECT"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
 </manifest>
